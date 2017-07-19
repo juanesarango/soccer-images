@@ -4,11 +4,12 @@ The objective was to use the Clarifai API for image recognition.
 Several images are analized to predict if they are related with soccer games or fields.
 
 
-## Use
+## Install dependencies
+`pip install -r requirements.txt`
 
+## Use
 For using the app is necessary to get an API_KEY from the service: `https://developer.clarifai.com/` and export this into the environment.
 
-`pip install -r requirements.txt`
 `python clarifai_video.py`
 
 The result of analizing the 3 example images are:
