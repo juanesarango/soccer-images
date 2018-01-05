@@ -10,6 +10,10 @@ Several images are analized to predict if they are related with soccer games or 
 ## Use
 For using the app is necessary to get an API_KEY from the service: `https://developer.clarifai.com/` and export this into the environment.
 
+`export CLARIFAI_API_KEY=<your-clarifai-key>`
+
+And then run:
+
 `python clarifai_video.py`
 
 The result of analizing the 3 example images are:
